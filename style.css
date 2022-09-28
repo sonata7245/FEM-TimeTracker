@@ -23,6 +23,7 @@ width: 375px; */
 
 .card{
     border-radius: 1em;
+    width: 375px;
 }
 
 .cardText{
@@ -34,8 +35,6 @@ width: 375px; */
 
 .cardHead{
     height: 60px;
-
-
 }
 
 .namePlate{
