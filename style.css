@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(226, 43%, 10%);
+    font-size: 18px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+gap: 10px;
+grid-auto-rows: minmax(100px, auto);
+max-width: 375px;
+}
+
+.card{
+    border-radius: 1em;
+}
+
+.cardText{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 1em;
+    margin-top: -1em;
+    padding: 2em;
+}
+
+.cardHead{
+    height: 60px;
+
+
+}
+
+.namePlate{
+    grid-column: 1 / 1;
+    grid-row: 2;   
+}
+
+.namePlateHead{
+    display:flex;
+    align-content: center;
+    justify-content: space-around;
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 1em;
+}
+
+.namePlateHead>img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: white 2px solid;
+}
+
+
+#work{
+    background-color:hsl(15, 100%, 70%);
+    background-image:url(./images/icon-work.svg);
+    background-repeat: no-repeat;
+    background-position:top right;
+}
+
+#play{
+    background-color:hsl(195, 74%, 62%);
+    background-image:url(./images/icon-play.svg);
+    background-repeat: no-repeat;
+    background-position:top right;
+}
+
+#study{
+    background-color:hsl(348, 100%, 68%);
+    background-image:url(./images/icon-study.svg);
+    background-repeat: no-repeat;
+    background-position:top right;
+}
+
+#exercise{
+    background-color:hsl(145, 58%, 55%);
+    background-image:url(./images/icon-exercise.svg);
+    background-repeat: no-repeat;
+    background-position:top right;
+}
+
+#social{
+    background-color:hsl(264, 64%, 52%);
+    background-image:url(./images/icon-social.svg);
+    background-repeat: no-repeat;
+    background-position:top right;
+}
+
+#selfCare{
+    background-color:hsl(43, 84%, 65%);
+    background-image:url(./images/icon-self-care.svg);
+    background-repeat: no-repeat;
+    background-position:top right;
+}
