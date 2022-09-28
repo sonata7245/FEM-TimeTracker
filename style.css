@@ -37,7 +37,7 @@ width: 375px; */
     height: 50px;
 }
 
-.namePlate{
+#namePlate{
     /* grid-column: 1 / 1;
     grid-row: 2;  */
     text-align: center;
