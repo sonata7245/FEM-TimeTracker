@@ -38,8 +38,9 @@ width: 375px; */
 }
 
 .namePlate{
-    grid-column: 1 / 1;
-    grid-row: 2;   
+    /* grid-column: 1 / 1;
+    grid-row: 2;  */
+    text-align: center;  
 }
 
 .namePlateHead{
