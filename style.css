@@ -34,7 +34,7 @@ width: 375px; */
 }
 
 .cardHead{
-    height: 50px;
+    height: 60px;
 }
 
 #namePlate{
@@ -42,7 +42,7 @@ width: 375px; */
     grid-row: 2;  */
     text-align: center;
     background-color: hsl(235, 46%, 20%);
-    color:hsl(264, 64%, 52%);
+    color:hsl(235, 45%, 61%);
     height: 100px;  
 }
 
