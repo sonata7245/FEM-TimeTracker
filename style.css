@@ -40,7 +40,10 @@ width: 375px; */
 .namePlate{
     /* grid-column: 1 / 1;
     grid-row: 2;  */
-    text-align: center;  
+    text-align: center;
+    background-color: hsl(235, 46%, 20%);
+    color:hsl(264, 64%, 52%);
+    height: 100px;  
 }
 
 .namePlateHead{
@@ -49,6 +52,7 @@ width: 375px; */
     justify-content: space-around;
     background-color: hsl(246, 80%, 60%);
     border-radius: 1em;
+    color: white;
 }
 
 .namePlateHead>img{
