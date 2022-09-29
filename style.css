@@ -21,26 +21,6 @@ grid-auto-rows: minmax(100px, auto);
 width: 375px; */
 }
 
-.card {
-    border-radius: 1em;
-    width: 375px;
-    background-repeat: no-repeat;
-    background-position: top 0px right 20px;
-}
-
-.cardText {
-    background-color: hsl(235, 46%, 20%);
-    border-radius: 1em;
-    margin-top: -1em;
-    padding: 2em;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.cardHead {
-    height: 60px;
-}
-
 #namePlate {
     /* grid-column: 1 / 1;
     grid-row: 2;  */
@@ -65,6 +45,31 @@ width: 375px; */
     height: 50px;
     border: white 2px solid;
 }
+
+.card {
+    border-radius: 1em;
+    width: 375px;
+    background-repeat: no-repeat;
+    background-position: top 0px right 20px;
+}
+
+.cardHead {
+    height: 60px;
+}
+
+.cardTitle{
+    grid-column: 2;
+}
+
+.cardText {
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 1em;
+    margin-top: -1em;
+    padding: 2em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 
 #work {
     background-color: hsl(15, 100%, 70%);
