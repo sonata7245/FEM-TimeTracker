@@ -10,7 +10,7 @@ body {
     align-items: center;
     font-family: 'Rubik', sans-serif;
 }
-
+@media (max-width: 1000px){
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -19,7 +19,7 @@ body {
     align-items: center;
     gap: 10px;
 }
-
+}
 #namePlate {
 
     text-align: center;
