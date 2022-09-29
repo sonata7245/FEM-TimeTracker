@@ -72,7 +72,7 @@ width: 375px; */
     font-weight: 300;
 }
 
-.cardText>div>img{
+.ellipsis{
     text-align: right;
 }
 
