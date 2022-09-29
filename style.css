@@ -11,20 +11,12 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 
-@media (max-width: 768px) {
-    .wrapper {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
 
-    }
-}
 
 .wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 20px;
 }
 
 
@@ -156,4 +148,16 @@ body {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+
+/* mobile formatting */
+@media (max-width: 768px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
 }
