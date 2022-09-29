@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
@@ -6,6 +8,7 @@ body {
     color: white;
     justify-content: center;
     align-items: center;
+    font-family: 'Rubik', sans-serif;
 }
 
 .wrapper {
@@ -58,9 +61,6 @@ width: 375px; */
     height: 60px;
 }
 
-.cardTitle{
-    font-weight: 400;
-}
 
 .cardText {
     background-color: hsl(235, 46%, 20%);
@@ -69,7 +69,15 @@ width: 375px; */
     padding: 2em;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+.hours {
+    font-size: 1.5em;
+}
+
+.prevHours {
     font-weight: 300;
+    text-align: right;
 }
 
 .ellipsis{
