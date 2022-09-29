@@ -59,7 +59,7 @@ width: 375px; */
 
 .namePlateText{
     display: flex;
-    align-content: bottom;
+    margin-top: 25px;
     justify-content: space-evenly;
     height: 50px;
     padding: 25px;
@@ -93,7 +93,7 @@ width: 375px; */
 .prevHours {
     font-weight: 300;
     text-align: right;
-    color: hsl(236, 100%, 87%)
+    color: hsl(236, 100%, 87%);
 }
 
 .ellipsis {
