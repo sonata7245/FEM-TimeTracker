@@ -14,13 +14,12 @@ body {
 .wrapper {
     display: flex;
     flex-direction: column;
-    max-width: 375px;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
+}
 
-@media (min-width: 769px){
     .wrapper{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -29,9 +28,9 @@ body {
     #namePlate{
         grid-row: 1 / 2 ;
     }
-}
 
-}
+
+
 #namePlate {
 
     text-align: center;
