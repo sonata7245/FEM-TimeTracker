@@ -44,6 +44,7 @@ width: 375px; */
     width: 50px;
     height: 50px;
     border: white 2px solid;
+    margin-top: 1em;
 }
 
 .card {
@@ -58,7 +59,7 @@ width: 375px; */
 }
 
 .cardTitle{
-    grid-column: 2;
+    font-weight: 400;
 }
 
 .cardText {
@@ -68,6 +69,11 @@ width: 375px; */
     padding: 2em;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    font-weight: 300;
+}
+
+.cardText>img{
+    text-align: right;
 }
 
 
