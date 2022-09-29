@@ -92,12 +92,14 @@ body {
 .hours {
     font-size: 1.5em;
     font-weight: 300;
+    padding: 10px 0;
 }
 
 .prevHours {
     font-weight: 300;
     text-align: right;
     color: hsl(236, 100%, 87%);
+    padding: 10px;
 }
 
 .ellipsis {
