@@ -43,18 +43,20 @@ body {
     border-radius: 50%;
     width: 75px;
     height: 75px;
-    border: white 2px solid;
+    border: white 3px solid;
 }
 
 .namePlateHeadText {
     text-align: left;
-    color:hsl(236, 100%, 87%);
+    color:hsl(235, 45%, 61%);
+    font-weight: 300;
 
 }
 
 .namePlateHeadText>p>span{
     font-size: 1.5em;
     display: block;
+    color:hsl(236, 100%, 87%);
 }
 
 .namePlateText{
