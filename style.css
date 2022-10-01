@@ -159,6 +159,10 @@ body {
     color: hsl(228, 45%, 44%);
 }
 
+.selected{
+    color: white;
+}
+
 
 /* mobile formatting */
 @media (max-width: 800px) {
