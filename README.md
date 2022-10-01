@@ -50,11 +50,11 @@ Users should be able to:
 
 
 ### What I learned
-
+How to call dynamic properties in an object. Using CSS Grid.
 
 
 ### Continued development
-
+Add backend functionality to store data so report could be generated for multiple people
 
 
 ### Useful resources
@@ -62,3 +62,5 @@ Users should be able to:
 
 
 ## Author
+Joshua Jones
+http://www.joshuajones.me
